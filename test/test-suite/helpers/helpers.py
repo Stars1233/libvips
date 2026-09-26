@@ -83,6 +83,7 @@ JP2K_FILE = os.path.join(IMAGES, "world.jp2")
 JP2K_PALETTE_FILE = os.path.join(IMAGES, "palette.jp2") # https://github.com/libvips/libvips/pull/5136
 UHDR_FILE = os.path.join(IMAGES, "ultra-hdr.jpg")
 TYPE_LIGHT_SANS_FONT = os.path.join(FONTS, "TypeLightSans.ttf") # CC0 https://ggbot.itch.io/ggbotnet-fonts-cc0
+UHDR_ODD_DIMENSIONS_FILE = os.path.join(IMAGES, "gainmap-odd-dimensions.jpg")
 
 unsigned_formats = ["uchar", "ushort", "uint"]
 signed_formats = ["char", "short", "int"]
